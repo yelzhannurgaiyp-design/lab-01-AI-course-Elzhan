@@ -74,4 +74,28 @@ CORPUS: Dict[str, Dict[str, str]] = {
     "sentence": SENTENCE,
     "complaint": COMPLAINT,
     "system_prompt": SYSTEM_PROMPT,
+
+    "contract": {
+        "en": "The customer may cancel the contract within thirty days.",
+        "ru": "Клиент может расторгнуть договор в течение тридцати дней.",
+        "kk": "Клиент келісімшартты отыз күн ішінде бұза алады.",
+    },
+
+    "shared_letters": {
+        "en": "The client received the new document.",
+        "ru": "Клиент получил новый документ.",
+        "kk": "Клиент алды жаңа документ.",
+    },
+
+    "kazakh_specific": {
+        "en": "The client received the new document.",
+        "ru": "Клиент получил новый документ.",
+        "kk": "Құжатты бүгін Әлия өткізді.",
+    },
+
+    "complaint_json": {
+        "en": '{"greeting": "Good afternoon", "opened": "March", "product": "deposit", "promised_rate_period": "twelve months", "rate_changed": "August", "notice": "none", "documents": ["contract", "statement"], "request": "explain the basis for the change and restore the original terms"}',
+        "ru": '{"приветствие": "Добрый день", "открыт": "март", "продукт": "депозит", "срок_ставки": "двенадцать месяцев", "ставка_изменена": "август", "уведомление": "отсутствовало", "документы": ["договор", "выписка"], "просьба": "объяснить основание изменения и восстановить первоначальные условия"}',
+        "kk": '{"сәлемдесу": "Қайырлы күн", "өнім": "депозит", "ашылған": "наурыз", "мөлшерлеме_мерзімі": "он екі ай", "мөлшерлеме_өзгерді": "тамыз", "хабарлама": "болмады", "құжаттар": ["шарт", "үзінді көшірме"], "өтініш": "өзгерту негізін түсіндіру және бастапқы шарттарды қалпына келтіру"}',
+    },
 }
